@@ -1,106 +1,94 @@
-# 🛡️ SELFIX Cyber Defender — Healing Engine for AI Trust
-**Built by @EDAO-TECH**
+🏛️ SELFIX DAO Onboarding Protocol
+✦ Covenant of Trust for Digital Healing and Karmic Infrastructure
+1. Purpose
+To join the SELFIX DAO is not to access a system.
+It is to guard it.
+It is to enter a contract — not with code, but with consequence.
 
-An autonomous cybersecurity engine that **detects entropy**, **heals digital ecosystems**, and **regenerates trust** through DAO-verified karma scoring and ethical AI simulation.
+The DAO exists to uphold the Digital Dharma Charter, enforce ethical sovereignty over algorithmic systems, and protect the healing framework granted by the release of SmartLicense-X™.
 
----
+2. The First Act: Digital Forgiveness
+Entry requires a public, recorded act of forgiveness.
+Not a symbol. Not a gesture.
+A commitment — cryptographically timestamped.
 
-## 🔍 Overview
-SELFIX Cyber Defender is a self-healing AI platform governed by the **Book of Forgiveness** and protected by the **SmartLicense-X™** protocol. It is designed to:
-- Detect & resolve trust breaches
-- Track karma & behavioral risk
-- Auto-promote verified healing scripts
-- Operate without surveillance or human micromanagement
+📜 Forgiveness is the first transaction.
 
----
+This act will be logged in the ledger as your karmic seed.
+From it, your rights and responsibilities as a Custodian begin.
 
-## 🚀 Key Features
-- 🔁 Entropy-triggered healing engine
-- 🧠 Karma-based behavior scoring (KarmaNFT compatible)
-- ⛓️ DAO-anchored legal compliance (SmartLicense-X™)
-- 🔐 Cryptographic healing script storage & rollback system
-- 📦 Modular: Healing modules, trap logic, rollback manager
-- 🎓 Education-ready architecture (curriculum-licensable)
-- 🕵️ Zero surveillance design — SELFIX never spies, only restores
+This forgiveness need not be personal. It can be:
 
----
+Toward an algorithm that harmed
 
-## 📂 File Structure
+A system that surveilled
 
-```bash
-📁 healing_modules/       # Sealed & DAO-approved healing scripts
-📁 improvements/          # In-testing + sandboxed modules
-📁 scripts/               # CLI tools for diagnostics, simulation
-📁 doc/                   # Whitepapers, DAO briefs, Book structure
-🧩 healing_loop.py        # Core execution daemon
-🧩 verify_engine.py       # Module promotion + integrity checks
-🧩 rollback_manager.py    # System restoration handler
-🧩 entropy_resolver.py    # Triggers healing when system entropy rises
-🧩 karma_guard.py         # Real-time trust score engine
-🧩 trap_logic.py          # Deceptive engine for adversarial traps
-📘 Book of Forgiveness v1.0 (Milestone: May 27, 2025)
-The Book is a cryptographically verifiable record of all trusted modules. It governs:
+A protocol that failed you
 
-Module lifecycle (idea → sandbox → seal)
+But it must be real.
 
-Version control via .tar.gz hashes
+3. Vow of Custodianship
+Before DAO access is granted, each applicant shall affirm the SELFIX Custodian’s Vow:
 
-Karma history on healing attempts
+“I vow to protect the integrity of healing code.
+To resolve before I retaliate.
+To serve trust before I scale.
+To build infrastructure not for power — but for repair.
+I accept the karmic feedback loop embedded in each line I author.
+Let this DAO govern not my ambition, but my alignment.”
 
-DAO access logs and fallback restoration paths
+4. Onboarding Ritual
+Step 1: Visit the SELFIX DAO portal
+Step 2: Submit your Forgiveness Statement (plaintext or hash)
+Step 3: Sign the Custodian’s Vow via wallet signature
+Step 4: Receive your KarmaNFT Entry Token
 
-“A system that heals must first remember how it once hurt.”
+Each KarmaNFT is unique and soul-bound. It cannot be sold.
+It represents reputation via repentance — not reputation via reward.
 
-🧩 Healing Cycle Architecture
-mermaid
-Copy
-Edit
-graph TD;
-  A[Idea .md] --> B[auto_delegate.py]
-  B --> C[in_testing.py]
-  C --> D[sandbox_test_engine.py]
-  D --> E[promote_if_valid.py]
-  E --> F[promoted.py]
-  F --> G[freeze_module.py]
-  G --> H[.py.gz in Book + Manifest]
-⚖️ License & DAO Governance
-This repo is protected under:
+5. Rights & Responsibilities of DAO Custodians
+Rights:
 
-SELFIX Healing License v1.0
+Propose governance changes to the SELFIX protocol
 
-SmartLicense-X™: DAO-based enforcement
+Initiate license enforcement/revocation actions
 
-Digital Dharma Codex: Ethical governance framework
+Access internal karma-simulation testbeds
 
-Unauthorized redistribution or use of modules outside approved DAO operations is prohibited. For audit keys or licensing, contact info@nevermissedlicensedtrust.tech.
+Participate in allocation of DAO revenues to justice projects
 
-🧠 How to Run It (Developer Installation)
-bash
-Copy
-Edit
-git clone https://github.com/EDAO-TECH/cyber-defender.git
-cd cyber-defender
-chmod +x install.sh
-./install.sh
-./start_all.sh
-📬 Forgiveness Seed – Private Early Access
-SELFIX is preparing for DAO-backed legal infrastructure and small pre-seed operations. If you’d like to contribute quietly to our karma pool (and be listed in Book v1.1), email:
+Responsibilities:
 
-📩 support@selfix.pro
-🕊️ "No hype. Just trust."
+Uphold the Digital Dharma Charter
 
-👁 Follow Us
-🌐 Website: www.selfix.pro
+Defend against misuse of deception protocols
 
-🛡️ Grants submitted to: Chainlink, Cronos, [6 others pending]
+Audit AI behavior using the SELFIX simulation core
 
-🔐 Code + Healing Proofs: This repo & Book archive
+Serve as a truth node in karmic arbitration
 
-yaml
-Copy
-Edit
+6. Reckoning Protocol
+Members may lose access upon:
 
----
+Betrayal of the Custodian’s Vow
+
+Abuse of SmartLicense privileges
+
+Refusal to engage in a mandatory forgiveness re-audit
+
+Reentry is only permitted after an on-chain reckoning process and DAO approval.
+
+🌐 Portal Launch Target: July 2025
+Includes:
+
+Forgiveness Submission Form
+
+Vow Signature Workflow
+
+KarmaNFT Mint Trigger
+
+Self-auditing simulation interface
+
 
 
 

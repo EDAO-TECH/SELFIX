@@ -37,6 +37,13 @@ Cyber Defender is a modular self-healing engine designed to detect and mitigate 
 📄 start_all.sh             # Launch all system daemons
 
 
+git clone https://github.com/EDAO-TECH/cyber-defender.git
+cd cyber-defender
+chmod +x install.sh
+./install.sh
+./start_all.sh
+
+
 
 🔷 ./
 ├── 🔷 __pycache__/
@@ -82,7 +89,3 @@ Unauthorized redistribution or derivative work without DAO approval is prohibite
 
 
 
-<!---
-EDAO-TECH/EDAO-TECH is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->

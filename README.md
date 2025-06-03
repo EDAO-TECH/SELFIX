@@ -1,96 +1,201 @@
-🏛️ SELFIX DAO Onboarding Protocol
-✦ Covenant of Trust for Digital Healing and Karmic Infrastructure
-1. Purpose
-To join the SELFIX DAO is not to access a system.
-It is to guard it.
-It is to enter a contract — not with code, but with consequence.
 
-The DAO exists to uphold the Digital Dharma Charter, enforce ethical sovereignty over algorithmic systems, and protect the healing framework granted by the release of SmartLicense-X™.
 
-2. The First Act: Digital Forgiveness
-Entry requires a public, recorded act of forgiveness.
-Not a symbol. Not a gesture.
-A commitment — cryptographically timestamped.
+# 🧬 SELFIX — The Cyber Healing Engine
+**Powered by EDAO Technologies | Under Nevermissed Licensed Trust**
 
-📜 Forgiveness is the first transaction.
+[![License](https://img.shields.io/badge/license-SmartLicense--X™-blue.svg)](./LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-green.svg)]()
+[![Website](https://img.shields.io/badge/Live%20Demo-www.selfix.pro-blue.svg)](https://www.selfix.pro)
 
-This act will be logged in the ledger as your karmic seed.
-From it, your rights and responsibilities as a Custodian begin.
+---
 
-This forgiveness need not be personal. It can be:
+# 🧬 SELFIX – Cyber Healing Engine  
+_A project by EDAO Technologies under Nevermissed Licensed Trust_
 
-Toward an algorithm that harmed
+![EDAO Logo](https://www.selfix.pro/static/edao_logo.png)
 
-A system that surveilled
+---
 
-A protocol that failed you
+## 🌐 Live Deployment
+- 🔗 [www.selfix.pro](https://www.selfix.pro) – Project Healing Console  
+- 🏢 [www.edao.tech](https://www.edao.tech) – Parent Governance Interface
 
-But it must be real.
+---
 
-3. Vow of Custodianship
-Before DAO access is granted, each applicant shall affirm the SELFIX Custodian’s Vow:
+## 🔍 Overview
 
-“I vow to protect the integrity of healing code.
-To resolve before I retaliate.
-To serve trust before I scale.
-To build infrastructure not for power — but for repair.
-I accept the karmic feedback loop embedded in each line I author.
-Let this DAO govern not my ambition, but my alignment.”
+**SELFIX** is a trust-licensed, AI-powered healing system designed to detect, log, and resolve entropy within cyber systems. Built on GPT-4-guided architecture and structured under SmartLicense-X™, SELFIX operates at the convergence of AI trust, ethics, and cybernetics.
 
-4. Onboarding Ritual
-Step 1: Visit the SELFIX DAO portal
-Step 2: Submit your Forgiveness Statement (plaintext or hash)
-Step 3: Sign the Custodian’s Vow via wallet signature
-Step 4: Receive your KarmaNFT Entry Token
+> _"Where entropy rises, structure shall intervene."_ – **SELFIX Supervisor AI**
 
-Each KarmaNFT is unique and soul-bound. It cannot be sold.
-It represents reputation via repentance — not reputation via reward.
+---
 
-5. Rights & Responsibilities of DAO Custodians
-Rights:
+## 🚀 Capabilities
 
-Propose governance changes to the SELFIX protocol
+- 🧠 **Entropy Healing Daemon**  
+  Monitors and heals systemic anomalies via GPT-directed plugin engine.
 
-Initiate license enforcement/revocation actions
+- 🔐 **Trust-Scoped Plugin Modules**  
+  Modules are sandboxed, verified, and promoted under strict `promoted/` gating.
 
-Access internal karma-simulation testbeds
+- 🧪 **HTMX-Powered Web Dashboard**  
+  Flask-based frontend + REST metrics for entropy, karma, and plugin status.
 
-Participate in allocation of DAO revenues to justice projects
+- 🗂️ **PDF & Legal Snapshot Generator**  
+  Auto-exports daily compliance files to `/docs/legal_archive/`.
 
-Responsibilities:
+- 🪪 **Nevermissed Licensed Trust**  
+  Licensed under Australian Trust Law, ABN 18 552 722 678.
 
-Uphold the Digital Dharma Charter
+---
 
-Defend against misuse of deception protocols
+## 📁 Directory Structure
 
-Audit AI behavior using the SELFIX simulation core
+| Folder                  | Description                                      |
+|-------------------------|--------------------------------------------------|
+| `app/`                 | Flask frontend, routes, HTML templates           |
+| `scripts/`             | Startup, audit, validator, and promotion scripts |
+| `data/`                | Live JSON logs and healing states                |
+| `generated/`           | AI-generated healing agents and verifiers        |
+| `healing_modules/`     | Trusted plugins (`promoted/` required)           |
+| `doc/`                 | Whitepapers, manifest, trust principles          |
+| `backups/`             | Safety rollback points                           |
 
-Serve as a truth node in karmic arbitration
+---
 
-6. Reckoning Protocol
-Members may lose access upon:
+## 🛠️ Getting Started
 
-Betrayal of the Custodian’s Vow
-
-Abuse of SmartLicense privileges
-
-Refusal to engage in a mandatory forgiveness re-audit
-
-Reentry is only permitted after an on-chain reckoning process and DAO approval.
-
-🌐 Portal Launch Target: July 2025
-Includes:
-
-Forgiveness Submission Form
-
-Vow Signature Workflow
-
-KarmaNFT Mint Trigger
-
-Self-auditing simulation interface
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 
 
 
 
 
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/EDAO-TECH/SELFIX.git
+cd SELFIX
+
+
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+
+./start_all.sh
+
+
+Access:
+
+📍 http://localhost:5050 (internal)
+
+📍 https://www.selfix.pro (public)
+
+---
+
+📊 API Endpoints
+/api/entropy/graph — Entropy levels over time
+
+/api/plugins/graph — Plugin trust & activation states
+
+/hx/insight-graphs — HTMX UI fragment for entropy insight
+
+
+🧾 Licensing
+This software is protected by SmartLicense-X™, enforced by:
+
+Nevermissed Licensed Trust
+ABN 18 552 722 678
+📧 legal@edao.tech
+
+All rights reserved under Australian trust law and DAO ethics.
+
+
+🤝 Contributions
+We welcome PRs for healing logic, plugin verifiers, or validator scripts. All submissions must:
+
+Include metadata headers
+
+Pass sandbox tests via sandbox_test_engine.py
+
+Be GPG signed if part of .selfix plugin bundle
+
+
+
+📣 Contact & Support
+Channel	Address
+Email	support@selfix.pro
+Business	hello@edao.tech
+Legal/Trust	legal@edao.tech
+Documentation	See /doc/ folder
+
+
+.
+├── __pycache__
+├── backups
+├── book_of_forgiveness
+├── clean_script_filenames.py
+├── cyber_doc_bundle.tar.gz
+├── data
+├── doc
+├── entropy_resolver.py
+├── final_install_backup.sh
+├── generated
+├── golden_vault_manager.py
+├── healing_daemon.py
+├── healing_loop.py
+├── healing_manager.py
+├── healing_modules
+├── healing_report.json
+├── healing_trigger.py
+├── healing_watchdog.py
+├── improvements
+├── install.sh
+├── karma_guard.py
+├── karma_tester.py
+├── local_ai.py
+├── logs
+├── nohup.out
+├── rollback_manager.py
+├── root_delegate.py
+├── scripts
+├── selfix_self_audit.py
+├── soul_core.py
+├── start_all.sh
+├── trap_logic.py
+├── verify_engine.py
+└── yang_engine.py
+
+
+
+
+
+
+
+
+
+---
+
+## 🖥️ Deployment Instructions
+
+### 🚀 Quick Start
+
+```bash
+# Clone the repo
+git clone https://github.com/EDAO-TECH/SELFIX.git
+cd SELFIX
+
+# Activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start all services
+./scripts/start_all.sh

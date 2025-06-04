@@ -1,3 +1,6 @@
+![License: Public Domain](https://img.shields.io/badge/license-CC0_1.0-lightgrey.svg)
+![Build: Stable](https://img.shields.io/badge/build-passing-brightgreen)
+![Tech Stack: Python](https://img.shields.io/badge/stack-python%203.10-blue)
 
 
 # 🧬 SELFIX — The Cyber Healing Engine

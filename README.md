@@ -1,6 +1,26 @@
-![License: Public Domain](https://img.shields.io/badge/license-CC0_1.0-lightgrey.svg)
-![Build: Stable](https://img.shields.io/badge/build-passing-brightgreen)
-![Tech Stack: Python](https://img.shields.io/badge/stack-python%203.10-blue)
+
+# SELFIX — Decentralized Ethical Antivirus & AI Karmic Governance
+
+**Token:** SFX | **Chain:** Cronos | **DAO Enforced**  
+**Website:** [www.selfix.pro](https://www.selfix.pro)  
+**White Paper:** [SELFIX White Paper v1.2](link-to-whitepaper)  
+**Governance Certs:** [AI Digital Law Alignment](link) | [EDAO Verification](link)
+
+
+
+
+## 💠 What is SELFIX?
+
+SELFIX is the world’s first ethical cybersecurity protocol powered by karmic computation and SmartLicense-X™.  
+It replaces traditional antivirus with trust-weighted healing, deception-layer protection, and programmable ethics.
+
+- **Tokenized Healing Engine (SFX)**
+- **NFT Revenue Sharing (Karmic & Entropy NFTs)**
+- **Trap Logic Deception Fields**
+- **SmartLicense-X Enforcement for Ethical Access**
+- **Self-Healing AI Modules and Seeder Agents**
+
+---
 
 
 # 🧬 SELFIX — The Cyber Healing Engine
@@ -10,28 +30,43 @@
 [![Status](https://img.shields.io/badge/Status-Active-green.svg)]()
 [![Website](https://img.shields.io/badge/Live%20Demo-www.selfix.pro-blue.svg)](https://www.selfix.pro)
 
----
-
-# 🧬 SELFIX – Cyber Healing Engine  
-_A project by EDAO Technologies under Nevermissed Licensed Trust_
-
-![EDAO Logo](https://www.selfix.pro/static/edao_logo.png)
 
 ---
 
-## 🌐 Live Deployment
-- 🔗 [www.selfix.pro](https://www.selfix.pro) – Project Healing Console  
-- 🏢 [www.edao.tech](https://www.edao.tech) – Parent Governance Interface
+## 📜 Verified Deployment
+
+- Token Address: `0x342f8cac11E055Ba387942fa06E0e9522616D375`
+- Total Supply: 1,000,000,000 SFX
+- Deployment Date: June 6, 2025
+- Network: Cronos Chain
 
 ---
 
-## 🔍 Overview
+## 📂 Key Files
 
-**SELFIX** is a trust-licensed, AI-powered healing system designed to detect, log, and resolve entropy within cyber systems. Built on GPT-4-guided architecture and structured under SmartLicense-X™, SELFIX operates at the convergence of AI trust, ethics, and cybernetics.
-
-> _"Where entropy rises, structure shall intervene."_ – **SELFIX Supervisor AI**
+- `SELFIXToken_flat.sol` – Final deployed smart contract
+- `LICENSE.txt` – Karmic public use covenant under SmartLicense-X™
+- `/docs/` – White paper, DAO certificates, and IP references
 
 ---
+
+
+## 📎 Governance Repos
+
+- 🧠 [SmartLicense-X Public Release](https://github.com/EDAO-TECH/smartlicense-x-public-release)  
+- 🧬 [Digital Identity DAO Framework](https://github.com/EDAO-TECH/Digital_Identity)
+
+---
+
+## 📩 Contact
+
+- Team: info@nevermissedlicensedtrust.tech  
+- DAO: support@selfix.pro
+
+---
+
+
+
 
 ## 🚀 Capabilities
 
@@ -52,6 +87,8 @@ _A project by EDAO Technologies under Nevermissed Licensed Trust_
 
 ---
 
+
+
 ## 📁 Directory Structure
 
 | Folder                  | Description                                      |
@@ -65,6 +102,8 @@ _A project by EDAO Technologies under Nevermissed Licensed Trust_
 | `backups/`             | Safety rollback points                           |
 
 ---
+
+
 
 ## 🛠️ Getting Started
 
@@ -178,27 +217,3 @@ Documentation	See /doc/ folder
 
 
 
-
-
-
-
----
-
-## 🖥️ Deployment Instructions
-
-### 🚀 Quick Start
-
-```bash
-# Clone the repo
-git clone https://github.com/EDAO-TECH/SELFIX.git
-cd SELFIX
-
-# Activate virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Start all services
-./scripts/start_all.sh

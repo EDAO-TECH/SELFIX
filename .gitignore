@@ -1,25 +1,63 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Build
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 build/
 dist/
 *.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache
+.pytest_cache/
+
+# PyCharm & VS Code project files
+.idea/
+.vscode/
 
 # macOS
 .DS_Store
 
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Py2app/macOS build artifacts
+*.app/
+*.dmg
+
+# Environment config
+.env
+
+# Ignore GitHub CLI cache
+gh/
+
+# Ignore compiled distributions
+*.whl
+*.gz
+*.zip
+
 # Logs
 *.log
-
-# PyInstaller / py2app
-*.spec
-*.app
-
-# VSCode or IDEs
-.vscode/
-.idea/
-.env
+logs/

@@ -1,0 +1,35 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Logs and backups
+*.log
+*.bak
+*.tar.gz
+*.json.bak
+
+# Auto-generated output or compiled cache
+*.sqlite3
+*.gz
+*.zip
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# SELFIX-specific exclusions
+logs/
+data/
+generated/
+healing_report.json
+final_install_backup.sh
+

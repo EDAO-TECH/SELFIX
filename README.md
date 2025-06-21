@@ -5,7 +5,7 @@ Edit
 # 🛡️ SELFIX — Decentralized Ethical Antivirus & AI Karmic Governance
 
 > Powered by EDAO-TECH | Licensed under Nevermissed Licensed Trust™  
-> Chain: Cronos | Token: SFX | Governance: DAO-Enforced SmartLicense-X™
+> Chain: Cronos | Token: SFXC | Governance: DAO-Enforced SmartLicense-X™
 
 [🌐 www.selfix.pro](https://www.selfix.pro) • [📄 Whitepaper v1.2](./docs/SELFIX_Whitepaper.pdf) • [📧 Contact: support@selfix.pro](mailto:support@selfix.pro)
 
@@ -16,7 +16,7 @@ Edit
 **SELFIX** is the world’s first decentralized cybersecurity protocol driven by karmic logic and programmable ethics.  
 It replaces conventional antivirus with:
 
-- 🔁 **Tokenized Healing Engine** (powered by `SFX`)
+- 🔁 **Tokenized Healing Engine** (powered by `SFXC`)
 - 🧠 **Self-Healing Local AI** modules
 - 🛡️ **Trap Logic™** deception fields
 - 📜 **SmartLicense-X™** access enforcement
@@ -43,7 +43,7 @@ It replaces conventional antivirus with:
 | Key Detail            | Value                                                               |
 |-----------------------|---------------------------------------------------------------------|
 | Token Address         | `0x342f8cac11E055Ba387942fa06E0e9522616D375`                         |
-| Total Supply          | 1,000,000,000 SFX                                                   |
+| Total Supply          | 1,000,000,000 SFXC                                                   |
 | Deployment Date       | June 6, 2025                                                        |
 | Network               | Cronos Chain                                                        |
 | DAO Cert              | AI Digital Law Alignment, EDAO Verification                         |
@@ -61,13 +61,16 @@ api/                    — Local AI chat and system API
 book_of_forgiveness/    — Sandbox ideas, vaults, manifest
 docs/                   — Whitepaper, licensing, legal snapshots
 data/                   — Live entropy logs and healing reports
+
 🛠️ Getting Started
 Clone the repo and install dependencies:
 
 bash
 Copy
 Edit
+
 git clone https://github.com/EDAO-TECH/SELFIX.git
+
 cd SELFIX
 python3 -m venv venv
 source venv/bin/activate
@@ -102,7 +105,7 @@ SELFIX is protected under:
 
 ✅ DAO Verification via Nevermissed Licensed Trust
 
-🪪 ABN 18 552 722 678 | legal@edao.tech
+🪪 ABN 18 552 722 678 | legal@daocore.tech
 
 All use must comply with Karmic Public Use Covenant in /LICENSE.txt.
 
@@ -120,10 +123,10 @@ DAO-aligned governance tools
 
 📬 Contact & Investor Relations
 Channel	Address
-Support	support@selfix.pro
-DAO/Admin	hello@edao.tech
-Legal	legal@edao.tech
-Docs	See /docs/ folder or selfix.pro/docs
+Support:	support@selfix.pro
+DAO/Admin:	hello@edao.tech
+Legal:	legal@edao.tech
+Docs:	See /docs/ folder or selfix.pro/docs
 
 🔒 Developer Certificate of Origin (DCO)
 By contributing, you agree to the terms in DCO 1.1, ensuring all code is freely contributed or legally yours to submit.

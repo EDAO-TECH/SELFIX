@@ -26,8 +26,26 @@ jobs:
         run: |
           python3 setup.py py2app
 
-      - name: Upload .app as artifact
+      - name: Install create-dmg
+        run: |
+          brew install create-dmg
+
+      - name: Create DMG installer
+        run: |
+          create-dmg \
+            --volname "SELFIX Installer" \
+            --window-pos 200 120 \
+            --window-size 500 300 \
+            --icon-size 100 \
+            --icon "selfix_gui.app" 125 150 \
+            --app-drop-link 375 150 \
+            "dist/SELFIX.dmg" \
+            "dist/"
+
+      - name: Upload .app and .dmg as artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: SELFIX-mac-app
-          path: dist/selfix_gui.app
+          name: SELFIX-mac-build
+          path: |
+            dist/selfix_gui.app
+            dist/SELFIX.dmg

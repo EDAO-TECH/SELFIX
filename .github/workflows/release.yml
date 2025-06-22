@@ -1,0 +1,36 @@
+name: Package and Release SELFIX-AI
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip setuptools wheel pyinstaller
+
+      - name: Build with PyInstaller
+        run: |
+          pyinstaller --onefile selfix_gui.py
+          mv dist/selfix_gui dist/SELFIX-AI
+          chmod +x dist/SELFIX-AI
+
+      - name: Upload release binary
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/SELFIX-AI
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

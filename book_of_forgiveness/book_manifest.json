@@ -1,0 +1,769 @@
+[
+    {
+        "generated_on": "2025-05-26T17:37:00.386746Z",
+        "modules": [
+            {
+                "filename": "entropy_fix_cpu.py.gz",
+                "sha256": "29a58f134e432c06f087c938226e93607363d2a2e149f9f88178c90a5610b1a9",
+                "modified": "2025-05-26T00:12:02.465072Z",
+                "size_bytes": 63
+            }
+        ]
+    },
+    {
+        "filename": "idea_create_auto-update_checker_for_healing_modules.py",
+        "compressed": "idea_create_auto-update_checker_for_healing_modules.py.gz",
+        "date": "2025-06-03T08:52:02.025889Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py",
+        "compressed": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py.gz",
+        "date": "2025-06-03T08:52:02.026102Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_cli_to_list_all_sandboxed_ideas.py",
+        "compressed": "idea_create_cli_to_list_all_sandboxed_ideas.py.gz",
+        "date": "2025-06-03T08:52:02.026276Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_generate_golden_vault_for_healing_modules.py",
+        "compressed": "idea_generate_golden_vault_for_healing_modules.py.gz",
+        "date": "2025-06-03T08:52:02.026424Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_golden_archive_with_clean_manifest.py",
+        "compressed": "idea_regenerate_golden_archive_with_clean_manifest.py.gz",
+        "date": "2025-06-03T08:52:02.026570Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py",
+        "compressed": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py.gz",
+        "date": "2025-06-03T08:52:02.026735Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py",
+        "compressed": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py.gz",
+        "date": "2025-06-03T08:52:02.026889Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py",
+        "compressed": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py.gz",
+        "date": "2025-06-03T08:52:02.027020Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_karma_verification_phase.py",
+        "compressed": "idea_improve_karma_verification_phase.py.gz",
+        "date": "2025-06-03T08:52:02.027147Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_backup_scheduler_for_critical_system_configs.py",
+        "compressed": "idea_create_a_backup_scheduler_for_critical_system_configs.py.gz",
+        "date": "2025-06-03T08:52:02.027277Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py",
+        "compressed": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py.gz",
+        "date": "2025-06-03T08:52:02.027421Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "entropy_fix_cpu.py",
+        "compressed": "entropy_fix_cpu.py.gz",
+        "date": "2025-06-03T08:52:02.030175Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "status.py",
+        "compressed": "status.py.gz",
+        "date": "2025-06-03T08:52:02.030373Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py",
+        "compressed": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py.gz",
+        "date": "2025-06-03T08:52:02.030549Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py",
+        "compressed": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py.gz",
+        "date": "2025-06-03T08:52:02.030740Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py",
+        "compressed": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py.gz",
+        "date": "2025-06-03T08:52:02.030887Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py",
+        "compressed": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py.gz",
+        "date": "2025-06-03T08:52:02.031020Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_status.py",
+        "compressed": "idea_status.py.gz",
+        "date": "2025-06-03T08:52:02.031172Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_auto-update_checker_for_healing_modules.py",
+        "compressed": "idea_create_auto-update_checker_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:05:27.920912Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py",
+        "compressed": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py.gz",
+        "date": "2025-06-03T09:05:27.921146Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_cli_to_list_all_sandboxed_ideas.py",
+        "compressed": "idea_create_cli_to_list_all_sandboxed_ideas.py.gz",
+        "date": "2025-06-03T09:05:27.921396Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_generate_golden_vault_for_healing_modules.py",
+        "compressed": "idea_generate_golden_vault_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:05:27.921610Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_golden_archive_with_clean_manifest.py",
+        "compressed": "idea_regenerate_golden_archive_with_clean_manifest.py.gz",
+        "date": "2025-06-03T09:05:27.921791Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py",
+        "compressed": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py.gz",
+        "date": "2025-06-03T09:05:27.922042Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py",
+        "compressed": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py.gz",
+        "date": "2025-06-03T09:05:27.922310Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py",
+        "compressed": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py.gz",
+        "date": "2025-06-03T09:05:27.922550Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_karma_verification_phase.py",
+        "compressed": "idea_improve_karma_verification_phase.py.gz",
+        "date": "2025-06-03T09:05:27.922762Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_backup_scheduler_for_critical_system_configs.py",
+        "compressed": "idea_create_a_backup_scheduler_for_critical_system_configs.py.gz",
+        "date": "2025-06-03T09:05:27.922960Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py",
+        "compressed": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py.gz",
+        "date": "2025-06-03T09:05:27.923325Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "entropy_fix_cpu.py",
+        "compressed": "entropy_fix_cpu.py.gz",
+        "date": "2025-06-03T09:05:27.923897Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "status.py",
+        "compressed": "status.py.gz",
+        "date": "2025-06-03T09:05:27.924142Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py",
+        "compressed": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py.gz",
+        "date": "2025-06-03T09:05:27.924406Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py",
+        "compressed": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py.gz",
+        "date": "2025-06-03T09:05:27.924829Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py",
+        "compressed": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py.gz",
+        "date": "2025-06-03T09:05:27.925047Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py",
+        "compressed": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py.gz",
+        "date": "2025-06-03T09:05:27.925286Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_status.py",
+        "compressed": "idea_status.py.gz",
+        "date": "2025-06-03T09:05:27.925538Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_auto-update_checker_for_healing_modules.py",
+        "compressed": "idea_create_auto-update_checker_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:06:51.932609Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py",
+        "compressed": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py.gz",
+        "date": "2025-06-03T09:06:51.932874Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_cli_to_list_all_sandboxed_ideas.py",
+        "compressed": "idea_create_cli_to_list_all_sandboxed_ideas.py.gz",
+        "date": "2025-06-03T09:06:51.933104Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_generate_golden_vault_for_healing_modules.py",
+        "compressed": "idea_generate_golden_vault_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:06:51.933311Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_golden_archive_with_clean_manifest.py",
+        "compressed": "idea_regenerate_golden_archive_with_clean_manifest.py.gz",
+        "date": "2025-06-03T09:06:51.933494Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py",
+        "compressed": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py.gz",
+        "date": "2025-06-03T09:06:51.933663Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py",
+        "compressed": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py.gz",
+        "date": "2025-06-03T09:06:51.933892Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py",
+        "compressed": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py.gz",
+        "date": "2025-06-03T09:06:51.934080Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_karma_verification_phase.py",
+        "compressed": "idea_improve_karma_verification_phase.py.gz",
+        "date": "2025-06-03T09:06:51.934274Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_backup_scheduler_for_critical_system_configs.py",
+        "compressed": "idea_create_a_backup_scheduler_for_critical_system_configs.py.gz",
+        "date": "2025-06-03T09:06:51.934469Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py",
+        "compressed": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py.gz",
+        "date": "2025-06-03T09:06:51.934668Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "entropy_fix_cpu.py",
+        "compressed": "entropy_fix_cpu.py.gz",
+        "date": "2025-06-03T09:06:51.934862Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "status.py",
+        "compressed": "status.py.gz",
+        "date": "2025-06-03T09:06:51.935059Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py",
+        "compressed": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py.gz",
+        "date": "2025-06-03T09:06:51.935272Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py",
+        "compressed": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py.gz",
+        "date": "2025-06-03T09:06:51.935493Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py",
+        "compressed": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py.gz",
+        "date": "2025-06-03T09:06:51.935685Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py",
+        "compressed": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py.gz",
+        "date": "2025-06-03T09:06:51.935871Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_status.py",
+        "compressed": "idea_status.py.gz",
+        "date": "2025-06-03T09:06:51.936144Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_auto-update_checker_for_healing_modules.py",
+        "compressed": "idea_create_auto-update_checker_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:08:38.830576Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py",
+        "compressed": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py.gz",
+        "date": "2025-06-03T09:08:38.830810Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_cli_to_list_all_sandboxed_ideas.py",
+        "compressed": "idea_create_cli_to_list_all_sandboxed_ideas.py.gz",
+        "date": "2025-06-03T09:08:38.831068Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_generate_golden_vault_for_healing_modules.py",
+        "compressed": "idea_generate_golden_vault_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:08:38.831378Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_golden_archive_with_clean_manifest.py",
+        "compressed": "idea_regenerate_golden_archive_with_clean_manifest.py.gz",
+        "date": "2025-06-03T09:08:38.831598Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py",
+        "compressed": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py.gz",
+        "date": "2025-06-03T09:08:38.831815Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py",
+        "compressed": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py.gz",
+        "date": "2025-06-03T09:08:38.832053Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py",
+        "compressed": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py.gz",
+        "date": "2025-06-03T09:08:38.832268Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_karma_verification_phase.py",
+        "compressed": "idea_improve_karma_verification_phase.py.gz",
+        "date": "2025-06-03T09:08:38.832514Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_backup_scheduler_for_critical_system_configs.py",
+        "compressed": "idea_create_a_backup_scheduler_for_critical_system_configs.py.gz",
+        "date": "2025-06-03T09:08:38.832746Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py",
+        "compressed": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py.gz",
+        "date": "2025-06-03T09:08:38.832978Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "entropy_fix_cpu.py",
+        "compressed": "entropy_fix_cpu.py.gz",
+        "date": "2025-06-03T09:08:38.833252Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "status.py",
+        "compressed": "status.py.gz",
+        "date": "2025-06-03T09:08:38.833520Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py",
+        "compressed": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py.gz",
+        "date": "2025-06-03T09:08:38.833765Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py",
+        "compressed": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py.gz",
+        "date": "2025-06-03T09:08:38.834050Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py",
+        "compressed": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py.gz",
+        "date": "2025-06-03T09:08:38.834259Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py",
+        "compressed": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py.gz",
+        "date": "2025-06-03T09:08:38.834774Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_status.py",
+        "compressed": "idea_status.py.gz",
+        "date": "2025-06-03T09:08:38.834997Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_auto-update_checker_for_healing_modules.py",
+        "compressed": "idea_create_auto-update_checker_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:13:55.673924Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py",
+        "compressed": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py.gz",
+        "date": "2025-06-03T09:13:55.674187Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_cli_to_list_all_sandboxed_ideas.py",
+        "compressed": "idea_create_cli_to_list_all_sandboxed_ideas.py.gz",
+        "date": "2025-06-03T09:13:55.674436Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_generate_golden_vault_for_healing_modules.py",
+        "compressed": "idea_generate_golden_vault_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:13:55.674662Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_golden_archive_with_clean_manifest.py",
+        "compressed": "idea_regenerate_golden_archive_with_clean_manifest.py.gz",
+        "date": "2025-06-03T09:13:55.674862Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py",
+        "compressed": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py.gz",
+        "date": "2025-06-03T09:13:55.675226Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py",
+        "compressed": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py.gz",
+        "date": "2025-06-03T09:13:55.675472Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py",
+        "compressed": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py.gz",
+        "date": "2025-06-03T09:13:55.675704Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_karma_verification_phase.py",
+        "compressed": "idea_improve_karma_verification_phase.py.gz",
+        "date": "2025-06-03T09:13:55.675922Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_backup_scheduler_for_critical_system_configs.py",
+        "compressed": "idea_create_a_backup_scheduler_for_critical_system_configs.py.gz",
+        "date": "2025-06-03T09:13:55.676154Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py",
+        "compressed": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py.gz",
+        "date": "2025-06-03T09:13:55.676374Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "entropy_fix_cpu.py",
+        "compressed": "entropy_fix_cpu.py.gz",
+        "date": "2025-06-03T09:13:55.676595Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "status.py",
+        "compressed": "status.py.gz",
+        "date": "2025-06-03T09:13:55.677062Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py",
+        "compressed": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py.gz",
+        "date": "2025-06-03T09:13:55.677321Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py",
+        "compressed": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py.gz",
+        "date": "2025-06-03T09:13:55.677561Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py",
+        "compressed": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py.gz",
+        "date": "2025-06-03T09:13:55.677764Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py",
+        "compressed": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py.gz",
+        "date": "2025-06-03T09:13:55.677944Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_status.py",
+        "compressed": "idea_status.py.gz",
+        "date": "2025-06-03T09:13:55.678198Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_auto-update_checker_for_healing_modules.py",
+        "compressed": "idea_create_auto-update_checker_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:26:39.541358Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py",
+        "compressed": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py.gz",
+        "date": "2025-06-03T09:26:39.541659Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_cli_to_list_all_sandboxed_ideas.py",
+        "compressed": "idea_create_cli_to_list_all_sandboxed_ideas.py.gz",
+        "date": "2025-06-03T09:26:39.541942Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_generate_golden_vault_for_healing_modules.py",
+        "compressed": "idea_generate_golden_vault_for_healing_modules.py.gz",
+        "date": "2025-06-03T09:26:39.542212Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_golden_archive_with_clean_manifest.py",
+        "compressed": "idea_regenerate_golden_archive_with_clean_manifest.py.gz",
+        "date": "2025-06-03T09:26:39.542462Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py",
+        "compressed": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py.gz",
+        "date": "2025-06-03T09:26:39.542691Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py",
+        "compressed": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py.gz",
+        "date": "2025-06-03T09:26:39.543108Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py",
+        "compressed": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py.gz",
+        "date": "2025-06-03T09:26:39.543433Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_karma_verification_phase.py",
+        "compressed": "idea_improve_karma_verification_phase.py.gz",
+        "date": "2025-06-03T09:26:39.543667Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_backup_scheduler_for_critical_system_configs.py",
+        "compressed": "idea_create_a_backup_scheduler_for_critical_system_configs.py.gz",
+        "date": "2025-06-03T09:26:39.543902Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py",
+        "compressed": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py.gz",
+        "date": "2025-06-03T09:26:39.544142Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "entropy_fix_cpu.py",
+        "compressed": "entropy_fix_cpu.py.gz",
+        "date": "2025-06-03T09:26:39.544417Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "status.py",
+        "compressed": "status.py.gz",
+        "date": "2025-06-03T09:26:39.544684Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py",
+        "compressed": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py.gz",
+        "date": "2025-06-03T09:26:39.544973Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py",
+        "compressed": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py.gz",
+        "date": "2025-06-03T09:26:39.545246Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py",
+        "compressed": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py.gz",
+        "date": "2025-06-03T09:26:39.545524Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py",
+        "compressed": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py.gz",
+        "date": "2025-06-03T09:26:39.546523Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_status.py",
+        "compressed": "idea_status.py.gz",
+        "date": "2025-06-03T09:26:39.546808Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_auto-update_checker_for_healing_modules.py",
+        "compressed": "idea_create_auto-update_checker_for_healing_modules.py.gz",
+        "date": "2025-06-08T03:00:11.139850Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py",
+        "compressed": "idea_create_a_clean_healing_archive_by_compressing_all_promoted_healing_modules_and_saving_them_in_book_of_forgiveness_then_generate_a_manifest.py.gz",
+        "date": "2025-06-08T03:00:11.140321Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_cli_to_list_all_sandboxed_ideas.py",
+        "compressed": "idea_create_cli_to_list_all_sandboxed_ideas.py.gz",
+        "date": "2025-06-08T03:00:11.140801Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_generate_golden_vault_for_healing_modules.py",
+        "compressed": "idea_generate_golden_vault_for_healing_modules.py.gz",
+        "date": "2025-06-08T03:00:11.142143Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_golden_archive_with_clean_manifest.py",
+        "compressed": "idea_regenerate_golden_archive_with_clean_manifest.py.gz",
+        "date": "2025-06-08T03:00:11.142846Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py",
+        "compressed": "idea_improve_seed_agent_to_monitor_system_uptime_and_detect_idle_state.py.gz",
+        "date": "2025-06-08T03:00:11.143289Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py",
+        "compressed": "idea_upgrade_selfix_cli_to_support_idea_heal_status_task_with_delegate_fallback.py.gz",
+        "date": "2025-06-08T03:00:11.143834Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py",
+        "compressed": "idea_regenerate_vault_manifest_after_cleaning_filenames_in_book_of_forgiveness.py.gz",
+        "date": "2025-06-08T03:00:11.144319Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_improve_karma_verification_phase.py",
+        "compressed": "idea_improve_karma_verification_phase.py.gz",
+        "date": "2025-06-08T03:00:11.145136Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_create_a_backup_scheduler_for_critical_system_configs.py",
+        "compressed": "idea_create_a_backup_scheduler_for_critical_system_configs.py.gz",
+        "date": "2025-06-08T03:00:11.145845Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py",
+        "compressed": "idea_support__selfix_idea__as_alias_for__--task__to_accept_plain_english_input.py.gz",
+        "date": "2025-06-08T03:00:11.146343Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "entropy_fix_cpu.py",
+        "compressed": "entropy_fix_cpu.py.gz",
+        "date": "2025-06-08T03:00:11.146978Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "status.py",
+        "compressed": "status.py.gz",
+        "date": "2025-06-08T03:00:11.148080Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py",
+        "compressed": "idea_fix_and_regenerate_system_status_module_to_display_healing_mode_local_ai_phase_and_seeder_trust.py.gz",
+        "date": "2025-06-08T03:00:11.148897Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py",
+        "compressed": "idea_cli_tool_to_show_system_status_including_local_ai_and_seeder_agent.py.gz",
+        "date": "2025-06-08T03:00:11.149696Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py",
+        "compressed": "idea_add_karma-based_escalation_logic_to_agent002_if_repeated_healing_failures_drop_karma_below_-3_generate_a_self-improvement_task_for_rep_ai_and_submit_to_selfix_companion.py.gz",
+        "date": "2025-06-08T03:00:11.150466Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py",
+        "compressed": "idea_build_module_to_auto-clear_dns_cache_on_entropy_trigger.py.gz",
+        "date": "2025-06-08T03:00:11.151004Z",
+        "karma": "verified"
+    },
+    {
+        "filename": "idea_status.py",
+        "compressed": "idea_status.py.gz",
+        "date": "2025-06-08T03:00:11.151746Z",
+        "karma": "verified"
+    }
+]

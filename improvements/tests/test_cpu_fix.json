@@ -1,0 +1,1 @@
+{"entropy_pattern": "cpu_spike", "expected_fix": "clear_temp_cache.sh"}

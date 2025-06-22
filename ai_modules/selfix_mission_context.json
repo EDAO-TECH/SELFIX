@@ -1,0 +1,38 @@
+{
+  "goal": "Deploy and verify the official SELFIX utility token on Cronos.",
+  "status": "in-progress",
+  "token": {
+    "name": "SELFIX Core",
+    "symbol": "SFXC",
+    "total_supply": "1,000,000,000",
+    "decimals": 18,
+    "burnable": true,
+    "supply_fixed": true,
+    "deployer": "0x342f8cac11E055Ba387942fa06E0e9522616D375",
+    "mint_to": "0x342f8cac11E055Ba387942fa06E0e9522616D375",
+    "ownership_status": "to be renounced",
+    "verification": {
+      "platforms": [
+        "Sourcify",
+        "Cronoscan"
+      ],
+      "compiler": "v0.8.18",
+      "optimization": true
+    }
+  },
+  "log": [
+    "Contract 'SelfixCoreToken.sol' generated using OpenZeppelin standards",
+    "Deployment wallet funded and verified",
+    "Remix + MetaMask chosen for safe launch",
+    "Post-deploy ownership renounce plan established",
+    "Contract will be verified via Cronoscan/Sourcify"
+  ],
+  "next_steps": [
+    "Deploy contract in Remix using Injected Web3",
+    "Verify source code on Cronoscan",
+    "Confirm token visibility in MetaMask",
+    "Renounce ownership",
+    "Prepare optional DEX liquidity listing"
+  ],
+  "timestamp": "2025-06-12 15:23:00"
+}

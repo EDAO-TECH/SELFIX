@@ -1,152 +1,195 @@
-✅ Rebuilt & Structured README.md for SELFIX
-markdown
-Copy
-Edit
 # 🛡️ SELFIX — Decentralized Ethical Antivirus & AI Karmic Governance
 
-> Powered by EDAO-TECH | Licensed under Nevermissed Licensed Trust™  
-> Chain: Cronos | Token: SFXC | Governance: DAO-Enforced SmartLicense-X™
+**Powered by EDAO-TECH** | **Licensed under Nevermissed Licensed Trust™**  
+**Chain:** Cronos | **Token:** SFXC | **Governance:** DAO-Enforced SmartLicense-X™
 
-[🌐 www.selfix.pro](https://www.selfix.pro) • [📄 Whitepaper v1.2](./docs/SELFIX_Whitepaper.pdf) • [📧 Contact: support@selfix.pro](mailto:support@selfix.pro)
+🌐 [www.selfix.pro](https://www.selfix.pro) • 📄 Whitepaper v1.2 • 📧 support@selfix.pro
 
 ---
 
 ## 💠 What is SELFIX?
 
-**SELFIX** is the world’s first decentralized cybersecurity protocol driven by karmic logic and programmable ethics.  
-It replaces conventional antivirus with:
+SELFIX is the world’s first decentralized cybersecurity protocol driven by karmic logic and programmable ethics.  
+It replaces conventional antivirus software with:
 
-- 🔁 **Tokenized Healing Engine** (powered by `SFXC`)
-- 🧠 **Self-Healing Local AI** modules
-- 🛡️ **Trap Logic™** deception fields
-- 📜 **SmartLicense-X™** access enforcement
-- 🔐 **Karma-based plugin trust logic**
+- 🔁 Tokenized Healing Engine (powered by SFXC)
+- 🧠 Self-Healing Local AI Modules
+- 🛡️ Trap Logic™ deception fields
+- 📜 SmartLicense-X™ access enforcement
+- 🔐 Karma-based plugin trust logic
 - 🧬 DAO-driven upgrades and seeder agents
 
 ---
 
 ## 🚀 Capabilities
 
-| Feature                      | Description                                                                 |
-|-----------------------------|-----------------------------------------------------------------------------|
-| 🔁 Entropy Healing Daemon    | Monitors, detects, and resolves systemic threats autonomously              |
-| 🔐 Trust-Scoped Modules      | Promoted via reputation logic and sandbox validation                       |
-| 🧠 Local AI & CLI Chat       | Users can chat with the AI to understand or trigger healing                |
-| 📊 HTMX-Powered Web Panel    | Live metrics on entropy, karma state, healing status                       |
-| 🧾 Auto Legal Archive        | Exports daily logs to `/docs/legal_archive/` for compliance                |
-| 🌐 Offline Operability       | Functions in air-gapped or secure-edge environments                        |
+| Feature | Description |
+|--------|-------------|
+| 🔁 Entropy Healing Daemon | Detects and resolves system entropy & threats autonomously |
+| 🔐 Trust-Scoped Modules | Promoted by karma & sandbox validation |
+| 🧠 Local AI & CLI Chat | Natural language interface to healing system |
+| 📊 HTMX Web Panel | Live metrics on entropy, healing, karma |
+| 🧾 Legal Archive | Daily logs stored to `/docs/legal_archive/` |
+| 🧬 Antivirus Engine | Real-time scanner using local `selfix_signatures.json` |
+| 🖼️ Icon Generator | Automatically generates `.icns`, `.ico`, `.png` for app packaging |
+| 📦 App Installer Build | GitHub Actions build `.app`/`.exe` for macOS and Windows |
 
 ---
 
-## 📜 Deployment Details
+## 📦 Antivirus Engine
 
-| Key Detail            | Value                                                               |
-|-----------------------|---------------------------------------------------------------------|
-| Token Address         | `0x342f8cac11E055Ba387942fa06E0e9522616D375`                         |
-| Total Supply          | 1,000,000,000 SFXC                                                   |
-| Deployment Date       | June 6, 2025                                                        |
-| Network               | Cronos Chain                                                        |
-| DAO Cert              | AI Digital Law Alignment, EDAO Verification                         |
-| License Entity        | Nevermissed Licensed Trust (ABN 18 552 722 678)                     |
+SELFIX includes a custom signature-based antivirus scanner, using:
 
----
+- `antivirus/selfix_scanner.py`: Real-time scanner CLI
+- `selfix_signatures.json`: Hash-based detection
+- Logging to console, supports signature updates
+- Easily extensible to heuristic AI-based scan modules
 
-## 📂 Repo Structure
+✅ Sample run:
 
-```plaintext
-scripts/                — Installers, precheck, daemon tools
-core/                   — Healing engine and recovery logic
-modules/promoted/       — Approved self-healing plugins
-api/                    — Local AI chat and system API
-book_of_forgiveness/    — Sandbox ideas, vaults, manifest
-docs/                   — Whitepaper, licensing, legal snapshots
-data/                   — Live entropy logs and healing reports
+```bash
+python3 antivirus/selfix_scanner.py
+✅ Add a new signature:
 
-🛠️ Getting Started
-Clone the repo and install dependencies:
+json
+Copy
+Edit
+{
+  "name": "BackdoorXYZ",
+  "sha256": "abcdef123456...",
+  "description": "Known threat signature"
+}
+📜 Deployment Details
+Key	Value
+Token Address	0x342f8cac11E055Ba387942fa06E0e9522616D375
+Total Supply	1,000,000,000 SFXC
+Deployment	June 6, 2025
+Network	Cronos Chain
+DAO Cert	AI Digital Law Alignment
+License Entity	Nevermissed Licensed Trust™ (ABN 18 552 722 678)
+
+📂 Repo Structure (Post-Reorg)
+swift
+Copy
+Edit
+scripts/                 → Installers, daemon tools, CLI helpers
+scripts/build/           → Build specs (e.g. py2app, pyinstaller)
+scripts/qc/              → Karma tester & validation
+scripts/vault/           → Archival & golden module management
+scripts/maintenance/     → Cleanup and utility tools
+healing_modules/         → All promoted and pending healing logic
+api/                     → API layer & CLI entrypoint
+assets/                  → GUI icons (.ico, .icns, .png)
+antivirus/               → Signature scanner and signatures DB
+legal_docs/              → Patent filings, WIPO evidence
+.github/workflows/       → GitHub Actions CI/CD scripts
+docs/                    → Whitepaper, MD docs, architecture
+🧪 Getting Started
+Clone and install:
 
 bash
 Copy
 Edit
-
 git clone https://github.com/EDAO-TECH/SELFIX.git
-
 cd SELFIX
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-Start the system:
+Start the daemon & scanner:
 
 bash
 Copy
 Edit
-./start_all.sh
-Run precheck:
+./scripts/start_all.sh
+python3 antivirus/selfix_scanner.py
+Run full precheck:
 
 bash
 Copy
 Edit
 python3 scripts/selfix_precheck.py
-🌐 Access
-📍 Internal Dashboard: http://localhost:5050
+💻 App Build & Installers
+🔧 Icon Generator
+bash
+Copy
+Edit
+python3 scripts/generate_selfix_icon.py
+Produces:
 
-📍 Public Panel: https://www.selfix.pro
+Copy
+Edit
+assets/
+├── selfix_icon.png
+├── selfix_icon.ico
+└── selfix_icon.icns
+🧱 GitHub Actions (macOS .app)
+See .github/workflows/build-macos-app.yml — builds .app via py2app automatically on push to main.
 
-📊 API Endpoints
+🪟 Windows .exe (Manual)
+bash
+Copy
+Edit
+pyinstaller --onefile selfix_gui.py
+Creates dist/selfix_gui.exe.
+
+🌐 API Endpoints
 Endpoint	Purpose
-/api/entropy/graph	System entropy levels
-/api/plugins/graph	Plugin trust & activation stats
-/hx/insight-graphs	UI fragment for healing insights
+/api/entropy/graph	Entropy state visualization
+/api/plugins/graph	Plugin trust & usage graph
+/hx/insight-graphs	Healing logic panel embed
 
 📄 Licensing & Legal
 SELFIX is protected under:
 
 🧠 SmartLicense-X™ (Programmable Ethical License)
 
-✅ DAO Verification via Nevermissed Licensed Trust
+✅ DAO Certification via Nevermissed Licensed Trust
 
-🪪 ABN 18 552 722 678 | legal@daocore.tech
+🪪 ABN 18 552 722 678
 
-All use must comply with Karmic Public Use Covenant in /LICENSE.txt.
+See legal documents:
 
-🤝 Contributions
-We welcome high-integrity contributions including:
-
-Healing logic modules
-
-Karma testers and rollback logic
-
-DAO-aligned governance tools
-
-✅ All PRs must pass sandbox tests and include metadata headers.
-✅ For .selfix plugin bundle contributions, GPG signing is required.
-
-📬 Contact & Investor Relations
-Channel	Address
-Support:	support@selfix.pro
-DAO/Admin:	hello@edao.tech
-Legal:	legal@edao.tech
-Docs:	See /docs/ folder or selfix.pro/docs
-
-🔒 Developer Certificate of Origin (DCO)
-By contributing, you agree to the terms in DCO 1.1, ensuring all code is freely contributed or legally yours to submit.
-
-🧬 Powered by EDAO Technologies
-Learn more about our distributed R&D, open-IP ledger model, and decentralized healing logic at:
-👉 https://www.selfix.pro
-
-yaml
+go
 Copy
 Edit
+legal_docs/
+├── PCT FILED X LICENSED copy.pdf
+└── WIPO reward.pdf
+All contributions must comply with Karmic Public Use Covenant in LICENSE.txt.
+
+🤝 Contributions
+We welcome karmically-aligned contributors:
+
+Healing modules
+
+Plugin trust escalation logic
+
+Antivirus and rollback validators
+
+✅ PRs must:
+
+Pass sandbox validation
+
+Include metadata headers
+
+Use GPG for .selfix modules
+
+📬 Contact & DAO Relations
+Purpose	Email
+Support	support@selfix.pro
+Legal	legal@daocore.tech
+Admin	hello@edao.tech
+
+Full docs at: https://www.selfix.pro/docs
+
+🧬 Developer Certificate of Origin
+By contributing, you agree to the DCO 1.1:
+
+The code is yours or permitted
+It is legally allowed to be published
+It complies with project license and karma principles
 
 
-Developer Certificate of Origin
-Version 1.1
-
-Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
-
-Everyone is permitted to copy and distribute verbatim copies of this
-license document, but changing it is not allowed.
 
 
 Developer's Certificate of Origin 1.1

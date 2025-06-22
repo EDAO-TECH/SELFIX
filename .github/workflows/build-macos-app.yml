@@ -1,0 +1,33 @@
+name: Build SELFIX macOS App
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-mac-app:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip setuptools wheel
+          pip install py2app macholib
+
+      - name: Build macOS app with py2app
+        run: |
+          python3 setup.py py2app
+
+      - name: Upload .app as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SELFIX-mac-app
+          path: dist/selfix_gui.app

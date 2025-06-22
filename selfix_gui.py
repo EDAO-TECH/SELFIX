@@ -1,96 +1,98 @@
 import tkinter as tk
-from tkinter import scrolledtext, messagebox
-import subprocess
-import time
+from tkinter import filedialog, messagebox, scrolledtext
 import json
-from pathlib import Path
+import os
+import hashlib
+from datetime import datetime
 
-LOG_FILE = Path("logs/maintenance.log")
-AI_RESPONSES = {
-    "hello": "Hi! I'm your Selfix Assistant.",
-    "status": "System appears stable. No active threats logged.",
-    "heal": "Healing started... stand by.",
-    "scan": "Scanning now... hang tight!",
-    "help": "You can ask me to scan, heal, or give a quick health check."
-}
+# Constants
+SIGNATURE_FILE = "antivirus/selfix_signatures.json"
+SCAN_REPORT_DIR = "logs"
 
-class SelfixGUI:
-    def __init__(self, root):
-        self.root = root
-        root.title("🧠 SELFIX Standard Assistant")
+def load_signatures():
+    """Load virus signatures from the JSON file."""
+    try:
+        with open(SIGNATURE_FILE, 'r') as f:
+            return json.load(f)
+    except Exception:
+        return []
 
-        # Buttons
-        self.scan_button = tk.Button(root, text="🛡️ Start Scan", command=self.run_scan)
-        self.scan_button.grid(row=0, column=0, padx=5, pady=5)
+def compute_sha256(file_path):
+    """Compute SHA256 hash of a file."""
+    sha256 = hashlib.sha256()
+    try:
+        with open(file_path, 'rb') as f:
+            while chunk := f.read(8192):
+                sha256.update(chunk)
+        return sha256.hexdigest()
+    except:
+        return None
 
-        self.heal_button = tk.Button(root, text="💉 Start Healing", command=self.run_heal)
-        self.heal_button.grid(row=0, column=1, padx=5, pady=5)
+def scan_folder(folder, output_widget):
+    """Scan a selected folder for known threats."""
+    sigs = load_signatures()
+    known_hashes = {s["sha256"]: s for s in sigs}
+    found = []
 
-        self.check_button = tk.Button(root, text="📋 Pre-Health Check", command=self.show_status)
-        self.check_button.grid(row=0, column=2, padx=5, pady=5)
+    for root, _, files in os.walk(folder):
+        for file in files:
+            path = os.path.join(root, file)
+            hash_val = compute_sha256(path)
+            if hash_val in known_hashes:
+                sig = known_hashes[hash_val]
+                found.append((path, sig["name"]))
+                output_widget.insert(tk.END, f"🚨 Detected: {sig['name']} in {path}\n")
 
-        # Log output
-        self.log_area = scrolledtext.ScrolledText(root, height=10, width=80)
-        self.log_area.grid(row=1, column=0, columnspan=3, padx=10)
+    if not found:
+        output_widget.insert(tk.END, "✅ No threats found.\n")
+    else:
+        save_report(found)
 
-        # Chat
-        self.chat_display = scrolledtext.ScrolledText(root, height=8, width=80, state='disabled')
-        self.chat_display.grid(row=2, column=0, columnspan=3, padx=10, pady=10)
+def save_report(results):
+    """Save detection report as JSON."""
+    os.makedirs(SCAN_REPORT_DIR, exist_ok=True)
+    ts = datetime.now().strftime("%Y%m%d-%H%M%S")
+    path = os.path.join(SCAN_REPORT_DIR, f"report_{ts}.json")
+    with open(path, 'w') as f:
+        json.dump(results, f, indent=4)
 
-        self.chat_input = tk.Entry(root, width=70)
-        self.chat_input.grid(row=3, column=0, columnspan=2, padx=5)
-        self.send_button = tk.Button(root, text="💬 Send", command=self.respond_to_chat)
-        self.send_button.grid(row=3, column=2)
-
-    def run_scan(self):
-        self.append_log("[🛡️] Running scan...")
-        subprocess.run(["python3", "antivirus/selfix_scanner.py"])
-        self.read_log()
-
-    def run_heal(self):
-        self.append_log("[💉] Running healing...")
-        subprocess.run(["python3", "antivirus/selfix_scheduler.py"])
-        self.read_log()
-
-    def show_status(self):
-        self.append_log("[📋] Running health check...")
-        messagebox.showinfo("System Status", "SELFIX is online.\nLast scan: OK\nThreats healed: ✅")
-
-    def read_log(self):
-        if LOG_FILE.exists():
-            with open(LOG_FILE, "r") as f:
-                self.log_area.delete(1.0, tk.END)
-                self.log_area.insert(tk.END, f.read())
-
-    def append_log(self, msg):
-        timestamp = time.strftime("%H:%M:%S")
-        self.log_area.insert(tk.END, f"[{timestamp}] {msg}\n")
-        self.log_area.see(tk.END)
-
-    def respond_to_chat(self):
-        user_input = self.chat_input.get().strip().lower()
-        self.chat_input.delete(0, tk.END)
-
-        if not user_input:
-            return
-
-        self.append_chat("You", user_input)
-        response = self.get_ai_reply(user_input)
-        self.append_chat("SELFIX AI", response)
-
-    def append_chat(self, speaker, text):
-        self.chat_display.config(state='normal')
-        self.chat_display.insert(tk.END, f"{speaker}: {text}\n")
-        self.chat_display.config(state='disabled')
-        self.chat_display.see(tk.END)
-
-    def get_ai_reply(self, text):
-        for key in AI_RESPONSES:
-            if key in text:
-                return AI_RESPONSES[key]
-        return "I'm not sure, but you can try 'scan', 'status', or 'heal'."
-
-if __name__ == "__main__":
+def launch_gui():
+    """Launch the main Tkinter GUI."""
     root = tk.Tk()
-    app = SelfixGUI(root)
+    root.title("SELFIX Cyber Scanner")
+    root.geometry("650x450")
+
+    # Optional: Display logo (requires Pillow)
+    try:
+        from PIL import Image, ImageTk
+        logo = Image.open("assets/selfix_icon.png")
+        logo = logo.resize((80, 80))
+        logo_img = ImageTk.PhotoImage(logo)
+        logo_label = tk.Label(root, image=logo_img)
+        logo_label.image = logo_img
+        logo_label.pack(pady=5)
+    except Exception:
+        pass  # Skip if PIL or image not available
+
+    tk.Label(root, text="SELFIX Cyber Defender", font=("Arial", 18)).pack(pady=5)
+    tk.Label(root, text=f"Signatures loaded: {len(load_signatures())}").pack()
+
+    output = scrolledtext.ScrolledText(root, width=80, height=15)
+    output.pack(pady=10)
+
+    def on_browse():
+        folder = filedialog.askdirectory()
+        if folder:
+            output.insert(tk.END, f"\n🔍 Scanning: {folder}\n")
+            scan_folder(folder, output)
+
+    tk.Button(root, text="Select Folder to Scan", command=on_browse).pack(pady=5)
+    tk.Button(root, text="Exit", command=root.quit).pack()
+
     root.mainloop()
+
+# 🧠 Safe entry point — skip GUI init during py2app build
+if __name__ == "__main__":
+    import sys
+    if not hasattr(sys, 'frozen'):  # Avoid GUI launch during py2app setup
+        launch_gui()

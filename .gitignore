@@ -1,35 +1,24 @@
-# Byte-compiled Python files
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
 
-# Logs and backups
-*.log
-*.bak
-*.tar.gz
-*.json.bak
+# Build
+build/
+dist/
+*.egg-info/
 
-# Auto-generated output or compiled cache
-*.sqlite3
-*.gz
-*.zip
-
-# Virtual environments
-venv/
-.venv/
-.env/
-
-# System-specific
+# macOS
 .DS_Store
-Thumbs.db
 
-# IDE configs
+# Logs
+*.log
+
+# PyInstaller / py2app
+*.spec
+*.app
+
+# VSCode or IDEs
 .vscode/
 .idea/
-
-# SELFIX-specific exclusions
-logs/
-data/
-generated/
-healing_report.json
-final_install_backup.sh
-

@@ -1,39 +1,36 @@
-name: Build macOS App
+# .github/workflows/build-macos-app.yml
+
+name: Build SELFIX macOS .app
 
 on:
   push:
-    tags:
-      - 'v*.*.*'   # Trigger only on version tags (e.g., v1.0.0)
-  workflow_dispatch:  # Allow manual trigger
+    branches: [main]
 
 jobs:
-  build-macos:
+  build-macos-app:
     runs-on: macos-latest
 
     steps:
-      - name: 📥 Checkout repository
+      - name: ⬇️ Checkout repository
         uses: actions/checkout@v3
 
-      - name: 🐍 Set up Python 3.12
+      - name: ⚙️ Set up Python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12'
+          python-version: '3.10'
 
-      - name: 📦 Install dependencies
+      - name: 📦 Install Build Tools
         run: |
-          python3 -m pip install --upgrade pip setuptools wheel
-          pip install py2app macholib
+          python3 -m pip install --upgrade pip
+          pip install py2app
+          pip install -r requirements.txt
 
-      - name: 🧹 Clean previous build artifacts
-        run: |
-          rm -rf build dist *.egg-info __pycache__
-
-      - name: 🏗️ Build macOS app with py2app
+      - name: 🛠️ Build .app with py2app
         run: |
           python3 setup.py py2app
 
-      - name: 📤 Upload built app as artifact
-        uses: actions/upload-artifact@v4
+      - name: 📤 Upload macOS .app Artifact
+        uses: actions/upload-artifact@v4  # ✅ updated from @v3 to @v4
         with:
-          name: SELFIX-macos-app
+          name: selfix-macos-app
           path: dist/*.app

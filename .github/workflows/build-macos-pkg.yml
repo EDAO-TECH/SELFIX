@@ -1,0 +1,38 @@
+name: Build SELFIX macOS PKG
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-macos-pkg:
+    runs-on: macos-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 📦 Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install py2app
+          pip install -r requirements.txt
+
+      - name: 🧱 Build .app with py2app
+        run: |
+          python3 setup.py py2app
+
+      - name: 📦 Package .pkg from .app
+        run: |
+          chmod +x scripts/package_macos_app.sh
+          ./scripts/package_macos_app.sh
+
+      - name: ☁️ Upload PKG Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: selfix-macos-pkg
+          path: dist/SELFIX-Installer-*.pkg

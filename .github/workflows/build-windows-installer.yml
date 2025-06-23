@@ -1,0 +1,40 @@
+name: Build SELFIX Windows Installer
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-installer:
+    runs-on: windows-latest
+
+    steps:
+      - name: ⬇️ Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 🧰 Install dependencies
+        run: |
+          pip install pyinstaller
+          pip install -r requirements.txt
+
+      - name: 🏗️ Build EXE
+        run: |
+          pyinstaller --onefile selfix_gui.py
+
+      - name: 🧱 Install Inno Setup Compiler
+        run: |
+          choco install innosetup -y
+
+      - name: 🏗️ Compile Installer
+        run: |
+          "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" inno\SELFIX-setup.iss
+
+      - name: ☁️ Upload Installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: selfix-windows-installer
+          path: SELFIX-Setup-v1.1.1.exe

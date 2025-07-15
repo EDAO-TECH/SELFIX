@@ -284,30 +284,88 @@ ChatGPT can
 
 
 
-Developer's Certificate of Origin 1.1
+📂 SELFIX Repository Structure
+Welcome to the SELFIX source code — the first decentralized ethical antivirus powered by programmable trust logic and karmic governance.
 
-By making a contribution to this project, I certify that:
+This document maps the folder structure and explains what each directory is for, how it contributes to the overall system, and what developers need to know.
 
-(a) The contribution was created in whole or in part by me and I
-    have the right to submit it under the open source license
-    indicated in the file; or
+📌 Top-Level Directory Layout
+Directory	Purpose
+core/	Core healing loop, watchdog, engine, and soul logic. This is the heartbeat of SELFIX.
+api/	Exposes API interfaces (e.g. FastAPI) to wrap internal logic and support future web dashboards and remote control.
+gui/	Python GUI interface and .spec for packaging into macOS .app and Windows .exe.
+scripts/	Operational scripts, automation tools, CI helpers, vault checkers, seed agents, CLI wrappers, and cronable schedulers.
+setup/	Build and install configurations (e.g. setup.py, install.sh) for easy deployment across platforms.
+antivirus/	Signature-based scanner engine and database. Contains selfix_scanner.py and detection logs.
+assets/	App icons and branding elements in .icns, .ico, .png. Used for installers and GUI display.
+docs/	Whitepapers, architecture guides, customer experience docs, and product design insights.
+book_of_forgiveness/	Secure healing modules — both sandboxed (_staging) and sealed (module_firewall, promoted). Includes book_manifest.json.
+healing_modules/	Raw healing logic — separated into pending/ and promoted/. New logic starts here.
+improvements/	Ideas backlog, experimental modules, and logic under test or staging. Organized for collaboration and sandboxing.
+tests/	Karma-based test framework, module validators, and forensic tools (formerly qc).
+data/	AI journal, system status snapshots, and runtime intelligence. Used by local agents.
+legal_docs/	Licensed patent and DAO-verified documentation (e.g., PCT filings, WIPO proofs).
+logs/	Runtime logs from daemon, healing loop, and monitors. Helpful for debugging and audits.
+dist/	Build artifacts created by PyInstaller, setup scripts, etc. Auto-generated.
+build/	Temporary build metadata and intermediate files. Often created by setuptools or PyInstaller.
+backups/	Local or remote-synced backup scripts, snapshots, or golden archives.
+inno/	Inno Setup script for building Windows .exe installers.
+selfix_self_audit.py	Performs logic and configuration self-checks. Like a karma-aware checksum validator.
+verify_engine.py	Scans and confirms integrity of healing logic, especially promoted modules.
 
-(b) The contribution is based upon previous work that, to the best
-    of my knowledge, is covered under an appropriate open source
-    license and I have the right under that license to submit that
-    work with modifications, whether created in whole or in part
-    by me, under the same open source license (unless I am
-    permitted to submit under a different license), as indicated
-    in the file; or
+🎯 Key Entry Points
+File	Description
+scripts/start_all.sh	Launches the healing daemon, AI monitor, scanner, and local services.
+core/healing_loop.py	Main execution engine for healing events and trigger response.
+antivirus/selfix_scanner.py	File-based virus scanner with JSON signature validation.
+gui/selfix_gui.py	Launches the GUI interface. Used in .app or .exe builds.
+scripts/selfix_monitor.py	Real-time healing dashboard monitor — logs and visualizes daemon output.
 
-(c) The contribution was provided directly to me by some other
-    person who certified (a), (b) or (c) and I have not modified
-    it.
+⚙️ Dev Notes
+Healing Modules Flow:
 
-(d) I understand and agree that this project and the contribution
-    are public and that a record of the contribution (including all
-    personal information I submit with it, including my sign-off) is
-    maintained indefinitely and may be redistributed consistent with
-    this project or the open source license(s) involved.
+Start in healing_modules/pending/
 
+Once tested: move to book_of_forgiveness/_staging/
 
+After successful promotion + manifest update → sealed into book_of_forgiveness/module_firewall/
+
+Signature Engine:
+
+selfix_signatures.json holds SHA256 hashes
+
+Scans use both static and behavior-based flags
+
+Updates are automated via update_signatures.sh (coming soon!)
+
+Vault Management:
+
+scripts/vault/ contains all secure logic archivers
+
+Only signed and approved modules get promoted to the healing vault
+
+Installer Notes:
+
+macOS: see .github/workflows/build-macos-app.yml
+
+Windows: use inno/SELFIX-setup.iss
+
+🧠 Future Plans
+Modular plugin system for healing logic
+
+Live healing telemetry on the GUI dashboard
+
+DAO-controlled karma rules update pipeline
+
+Auto-sync to Selfix Seeder Network (via scripts/seeder/)
+
+🤝 Contributions
+All contributions must:
+
+Follow karma validation in tests/qc/
+
+Use proper filenames and metadata
+
+Pass all pre-promotion sanity checks
+
+Be signed if destined for the book_of_forgiveness/module_firewall/ or promoted/

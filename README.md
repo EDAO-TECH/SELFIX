@@ -8,12 +8,44 @@
 
 ---
 
+<<<<<<< HEAD
 ## 💬 One-Liner Punchlines
 - “Your logic. Sealed. Healed. Trusted.”
 - “SELFIX heals what others just quarantine.”
 - “Antivirus scans files. SELFIX seals trust.”
 - “SELFIX doesn’t just stop threats — it recovers from them.”
 - “SELFIX is your machine’s memory of what’s sacred.”
+=======
+## 💠 What is SELFIX?
+
+SELFIX is the world’s first decentralized cybersecurity protocol driven by karmic logic and programmable ethics.  
+It replaces conventional antivirus software with:
+
+SELFIX/
+├── core/                  # 💠 Core healing engine + soul logic
+├── api/                   # 🔌 API layer (main_api, defender logic)
+├── antivirus/             # 🦠 Signature-based scanning engine
+├── healing_modules/       # 🧬 Promoted + Pending healing logic
+├── scripts/               # ⚙️ Tools, maintenance, automation, tests
+├── book_of_forgiveness/   # 📖 Sealed trusted scripts & module firewall
+├── assets/                # 🖼️ Icons for app builds
+├── build/                 # 🧱 Build specs, bdist, installers
+├── dist/                  # 📦 Built artifacts
+├── data/                  # 📊 Runtime logs and state (system_status.json, etc.)
+├── logs/                  # 📝 Healing & daemon logs
+├── improvements/          # 🧠 Experimental module ideas & sandbox
+├── legal_docs/            # 📜 Licensing, patents
+├── docs/                  # 📄 Whitepaper, MD docs
+├── gui/                   # 🖥️ selfix_gui.py, .spec files
+├── setup/                 # 🛠️ install.sh, setup.py
+├── tests/                 # ✅ QC tests
+├── .github/               # 🚀 CI/CD workflows
+├── .env.example
+├── LICENSE.txt
+├── README.md
+└── requirements.txt
+
+>>>>>>> 03b5304 (📁 Reorganized SELFIX folder structure for scalability and commercial tiers)
 
 ---
 

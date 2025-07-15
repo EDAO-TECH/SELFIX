@@ -1,7 +1,7 @@
 [
-  {
-    "name": "TestMalware123",
-    "sha256": "44d88612fea8a8f36de82e1278abb02f", 
-    "description": "Sample test signature for validation"
-  }
+    {
+        "name": "TestMalware123",
+        "sha256": "44d88612fea8a8f36de82e1278abb02f",
+        "description": "Sample test signature for validation"
+    }
 ]

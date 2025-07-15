@@ -33,7 +33,7 @@ httpcore==1.0.9
 httpx==0.28.1
 idna==3.10
 ipykernel==6.29.5
-ipython==9.2.0
+ipython==8.24.0
 ipython_pygments_lexers==1.1.1
 isoduration==20.11.0
 jedi==0.19.2
@@ -129,3 +129,13 @@ webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
 wheel==0.45.1
+
+
+
+
+
+
+
+
+
+

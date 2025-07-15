@@ -1,3 +1,7 @@
+import os
+base_dir = os.path.dirname(os.path.abspath(__file__))
+LOG_FILE = os.path.join(base_dir, "..", "logs", "delegate.log")
+
 #!/usr/bin/env python3
 import json
 import time

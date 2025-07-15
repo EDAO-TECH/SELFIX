@@ -1,0 +1,43 @@
+name: SELFIX CI Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-verify:
+    name: Build & Integrity Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 🧪 Install Dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🔍 Run Precheck Script
+        run: |
+          source venv/bin/activate
+          python scripts/selfix_precheck.py
+
+      - name: 🧠 Run Healing Daemon (Smoke Test)
+        run: |
+          source venv/bin/activate
+          python healing_daemon.py & sleep 10 && pkill -f healing_daemon
+
+      - name: 🛡️ Run Antivirus Scanner (Dry Run)
+        run: |
+          source venv/bin/activate
+          python antivirus/selfix_scanner.py || true

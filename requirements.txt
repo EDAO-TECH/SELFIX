@@ -115,7 +115,6 @@ sympy==1.13.3
 terminado==0.18.1
 threadpoolctl==3.6.0
 tinycss2==1.4.0
-torch==2.2.2
 torch==2.5.1
 tornado==6.5.1
 traitlets==5.14.3
@@ -129,8 +128,6 @@ webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
 wheel==0.45.1
-
-
 
 
 

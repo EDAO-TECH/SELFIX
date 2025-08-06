@@ -7,14 +7,14 @@
 
 ---
 
-<<<<<<< HEAD
+
 ## 💬 One-Liner Punchlines
 - “Your logic. Sealed. Healed. Trusted.”
 - “SELFIX heals what others just quarantine.”
 - “Antivirus scans files. SELFIX seals trust.”
 - “SELFIX doesn’t just stop threats — it recovers from them.”
 - “SELFIX is your machine’s memory of what’s sacred.”
-=======
+
 ## 💠 What is SELFIX?
 
 SELFIX is the world’s first decentralized cybersecurity protocol driven by karmic logic and programmable ethics.  
@@ -44,7 +44,7 @@ SELFIX/
 ├── README.md
 └── requirements.txt
 
->>>>>>> 03b5304 (📁 Reorganized SELFIX folder structure for scalability and commercial tiers)
+
 
 ---
 
@@ -178,11 +178,7 @@ SELFIX/
 ├── .github/workflows/ # GitHub CI/CD for apps
 └── selfix_signatures.json # Known threat hashes
 
-yaml
-Copy
-Edit
 
----
 
 ## 🚀 Getting Started
 
@@ -225,6 +221,8 @@ Edit
 legal_docs/
 ├── PCT FILED X LICENSED.pdf
 └── WIPO reward.pdf
+
+
 🤝 Contributing
 We welcome ethical hackers, AI healers, and digital custodians.
 
@@ -250,36 +248,6 @@ Support	support@selfix.pro
 Legal	legal@daocore.tech
 Admin	hello@edao.tech
 
-📜 Developer Certificate of Origin (DCO 1.1)
-By contributing, you confirm your code is yours or appropriately licensed and compliant with the karmic ethics of this project.
-
-© 2025 EDAO-TECH • Licensed by Nevermissed Licensed Trust™
-
-yaml
-Copy
-Edit
-
----
-
-### 🎁 Want me to:
-
-- Drop this into your repo?
-- Convert it into a `README.md` file and send it to you?
-
-Just say the word. Let’s make SELFIX the most impressive open-source project on GitHub.
-
-
-
-
-
-
-Ask ChatGPT
-
-
-
-
-
-ChatGPT can 
 
 
 

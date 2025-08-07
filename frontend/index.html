@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-tsrouter-app"
+    />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Create TanStack App - selfix-frontend-ui</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/png" href="/static/media/selfix_logo.png" />
+		<meta name="generator" content="Hostinger Horizons" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SELFIX — Autonomous Cyber Healing</title>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.jsx"></script>
+	</body>
+</html>
+// ~/SELFIX-frontend/src/routes/App.tsx
+import React from 'react';
+import { Link } from 'react-router-dom';
+import selfixLogo from '../../logo/SELFIX_officiall_logo.png';
+
+export default function App() {
+  return (
+    <main className="bg-[#fdf6ec] text-[#0d0d0d] min-h-screen flex flex-col items-center px-4 py-10">
+      <img src={selfixLogo} alt="SELFIX Logo" className="w-40 mb-6" />
+      <h1 className="text-4xl font-bold mb-2">SELFIX</h1>
+      <p className="text-lg mb-6 text-center max-w-xl">
+        Patent-Grade Forgiveness Engine. NFT-Sealed SmartLicense.
+      </p>
+
+      <div className="flex gap-4">
+        <Link to="/pricing" className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">
+          See Plans
+        </Link>
+        <Link to="/downloads" className="bg-[#00fcb3] text-black px-4 py-2 rounded hover:bg-[#00e6a0]">
+          My Licenses
+        </Link>
+      </div>
+
+      <section className="mt-12 max-w-4xl text-center">
+        <h2 className="text-2xl font-semibold mb-4">What Is SELFIX?</h2>
+        <p className="text-md">
+          SELFIX lets you license personal logic, scripts, or emotional contracts using NFT-backed smart licenses.
+          Seal decisions, automate forgiveness, and track moral code in cryptographic form.
+        </p>
+      </section>
+    </main>
+  );
+}
+

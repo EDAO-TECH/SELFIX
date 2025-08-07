@@ -1,0 +1,8 @@
+logs/
+__pycache__/
+.env
+*.pyc
+
+# Local Netlify folder
+.netlify
+node_modules/

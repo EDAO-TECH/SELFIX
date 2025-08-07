@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SELFIX – GPT Tool Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-black min-h-screen p-10">
+  <h1 class="text-3xl font-bold mb-4">🧠 GPT Security Assistants</h1>
+  <p class="text-gray-600 mb-6">Unlock advanced AI-powered tools for healing, writing, and automation.</p>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Tool Card -->
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold">CVE Explainer AI</h2>
+      <p class="text-gray-600 mt-2 mb-4">
+        Explains CVEs in plain English with GPT-generated fixes.
+      </p>
+      <p class="font-bold mb-2">$5.00</p>
+      <button
+        class="bg-blue-600 text-white px-4 py-2 rounded"
+        onclick="buyTool('price_1GptExplainer123')"
+      >
+        Buy Now
+      </button>
+    </div>
+
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold">GPTBountyWriter</h2>
+      <p class="text-gray-600 mt-2 mb-4">
+        Converts recon logs into bounty-ready reports.
+      </p>
+      <p class="font-bold mb-2">$9.00</p>
+      <button
+        class="bg-blue-600 text-white px-4 py-2 rounded"
+        onclick="buyTool('price_1GptWriter456')"
+      >
+        Buy Now
+      </button>
+    </div>
+
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold">GPT Payload Forge</h2>
+      <p class="text-gray-600 mt-2 mb-4">
+        Generates bypass-ready payloads (XSS, SQLi, SSTI).
+      </p>
+      <p class="font-bold mb-2">$12.00</p>
+      <button
+        class="bg-blue-600 text-white px-4 py-2 rounded"
+        onclick="buyTool('price_1GptPayload789')"
+      >
+        Buy Now
+      </button>
+    </div>
+  </div>
+
+  <script>
+    async function buyTool(priceId) {
+      const response = await fetch("https://api.selfix.pro/api/tool-checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ priceId }),
+      });
+
+      const data = await response.json();
+      if (data?.url) {
+        window.location.href = data.url;
+      } else {
+        alert("Something went wrong. Please try again.");
+      }
+    }
+  </script>
+</body>
+</html>

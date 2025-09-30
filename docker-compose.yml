@@ -1,0 +1,72 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    image: selfix/backend:latest
+    container_name: selfix-backend
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      UVICORN_WORKERS: 2
+    expose:
+      - "8000"
+    networks:
+      - selfix
+    volumes:
+      - backend-logs:/app/logs
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    image: selfix/frontend:latest
+    container_name: selfix-frontend
+    restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      - selfix
+
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: selfix-gateway
+    restart: unless-stopped
+    depends_on:
+      - backend
+      - frontend
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./docker/nginx.conf:/etc/nginx/nginx.conf:ro
+      - certbot-webroot:/var/www/certbot
+      - certbot-certs:/etc/letsencrypt
+    networks:
+      - selfix
+
+  # Optional shared services for caching or persistence.
+  redis:
+    image: redis:7-alpine
+    container_name: selfix-redis
+    restart: unless-stopped
+    networks:
+      - selfix
+    volumes:
+      - redis-data:/data
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    profiles:
+      - infra
+
+volumes:
+  backend-logs:
+  certbot-webroot:
+  certbot-certs:
+  redis-data:
+
+networks:
+  selfix:
+    driver: bridge

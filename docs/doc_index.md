@@ -15,6 +15,12 @@
   `QA_Healing_Script_Checklist.md`
 
 ## Strategy & Vision
-- **Official Whitepaper**  
+- **Official Whitepaper**
   `SELFIX_Whitepaper.md`
+
+## Go-To-Market Assets
+- **Website Copy Playbook**
+  `marketing_site_copy.md`
+- **Three-Year Financial Projections**
+  `financial_projections_2025_2027.md`
 
